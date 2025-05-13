@@ -1,12 +1,14 @@
-//public
-var firstName = "Mehmet";
+console.log(__filename);
+console.log(__dirname);
 
-//private
+var firstName = "Mehmet";
 var age = 30;
 
 var log = function (name) {
   console.log(name);
 };
 
-module.exports.name = firstName;
-module.exports.log = log;
+exports = {
+  firstName,
+  log,
+};
