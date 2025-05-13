@@ -1,4 +1,4 @@
-// tarayıcı
+const scriptA = require("./scriptA");
 
-// var lastName = "Küçük";
-// console.log(firstName);
+scriptA.log("lololooloo");
+scriptA.log(scriptA.name);

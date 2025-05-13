@@ -1,20 +1,12 @@
-// tarayıcı
+//public
+var firstName = "Mehmet";
 
-//  console.log(firstName);
+//private
+var age = 30;
 
-// console.log(window);
+var log = function (name) {
+  console.log(name);
+};
 
-// window.log();
-// window.setinterval();
-// windows.setTimeout();
-// window.clearTimeout();
-
-// var firstName = "Rıdvan";
-
-// console.log(globalThis.firstName);
-
-// globalThis.setTimeout(() => {
-//   console.log("timeout");
-// }, 1000);
-
-console.log(global);
+module.exports.name = firstName;
+module.exports.log = log;
